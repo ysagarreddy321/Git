@@ -1,0 +1,126 @@
+git
+
+What problems does version control solve?
+History of Version Control System(VCS) tools?
+How Git soloves the version control problem?
+
+doc-notepad:-
+version control sw:-
+1.undo
+2.redo
+3.SCCS
+
+
+sharing changes
+sending copies via email
+CVS: networking-1984
+
+several teams
+aspects, not just sections
+overlapping work
+subversion(2000): branches
+
+
+Linux Kernel
+
+
+2005 - Linux torevel-- introduced Git a new model
+
+git= tracck all your changes.
+git=work in parallel
+git=Share with others
+
+Git Fundamentals:-
+------------------
+
+Snapshots:-
+
+1. File stored by content
+2. Directories storied as a list of entries
+3. Point in time stored as a "commit"
+	Has a pointer to the root directory entry
+4. All indexed by SHA-1
+
+Git Fundamentals: Git Overview
+Additional features
+	1. Branches and tags
+	2. Connecting to other repositories
+	3. User interface
+
+The Flow:-
+	create a breanch
+	start with a "clean" working directory
+	make some changes
+	Creaft a snapshot
+	Make a commit
+	Repeat
+When ready
+	pull and push
+What Git Does
+	stories Data
+	Keeps it Safe
+	Helps your interact with the libreary
+The flow
+	branches are the norm
+	Lots of commits
+	Share when you are ready
+
+Repository
+	Container for snapshots and history
+	not a server
+Remote
+	Connection to another repository
+	Like a URL
+	Can be used for a central server
+	Can also point to another repository on the same machine.
+	
+Commit
+	A snapshot
+	Basic unit of histroy
+	One full copy of your project
+	Also includes metadata
+	Contents
+		Author/time/date
+		parent
+		Comments
+		Tree
+Reference
+	A pointer to a commit
+	Cheap/easy to create, move, destroy
+Branch
+	One kind of reference
+	When you add a commit to one, Git moves it
+HEAD
+	Another kind of reference
+	point to a branch
+Working directory
+	sandbox
+	just like any other set of files
+	except that Git wathces it
+Index
+	proposal for next snapshot
+	changes are copied here from the working directory
+
+Merge
+	Commit that combines two separate lines of history
+Other terms
+	Checkout
+	Add
+	Push	
+	Pull
+	Server
+
+===========================================================
+Git Fundamentals: Basic Terminology:-
+
+Repository
+Remote
+Commit
+Reference
+Branch
+HEAD
+Working Directory
+Index
+Merge
+
+
